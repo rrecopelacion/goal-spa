@@ -1,0 +1,31 @@
+.breadcrumbs {
+  background-color: #F5F5F5;
+  padding: 28px 0;
+  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    .breadcrumbs-item {
+      font-size: 16px;
+      font-family: $base-jp-font-reg;
+      padding-right: 30px;
+      margin-right: 15px;
+      position: relative;
+      &::before {
+        content: ">";
+        position: absolute;
+        right: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+        padding-right: 0;
+        &::before {
+          display: none;
+        }
+      }
+      a {
+        color: #000;
+      }
+    }
+  }
+}

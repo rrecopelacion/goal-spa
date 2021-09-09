@@ -1,0 +1,51 @@
+.button {
+  background-color: #000;
+  border: 2px solid transparent;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-family: $base-font-bold;
+  letter-spacing: 2px;
+  max-width: 340px;
+  width: 100%;
+  padding: 20px 10px;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+.button-scroll {
+  cursor: pointer;
+  position: absolute;
+  bottom: 80px;
+  right: 120px;
+  @include max-screen($breakpoint-mobile) {
+    display: none;
+  }
+}
+
+.button-group {
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+
+.button-link {
+  font-family: $base-font-bold;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    color: #c5c5c5;
+  }
+}
+
+.button-save {
+  margin-right: 50px;
+}

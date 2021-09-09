@@ -1,0 +1,23 @@
+{
+  "name": "blog-spa-exam",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12",
+    "vue-textarea-autosize": "^1.1.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/moment": "^1.6.1",
+    "fibers": "^5.0.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0"
+  }
+}

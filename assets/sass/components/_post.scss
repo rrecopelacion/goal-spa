@@ -1,0 +1,175 @@
+.post-list-group {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
+.post-list-item {
+  padding-left: 25px;
+  padding-right: 25px;
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+
+.post-list-link {
+  color: #000;
+  display: block;
+  padding: 40px 30px;
+  border: 1px solid #000;
+  margin-bottom: 50px;
+}
+
+.post-article-image {
+  margin-bottom: 25px;
+}
+
+.post-article-content {
+  .post-article-time {
+    font-size: 16px;
+    font-family: $base-font-bold;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .post-article-text {
+    font-size: 20px;
+    font-family: $base-jp-font;
+  }
+}
+
+.post-form-message {
+  border: 1px solid transparent;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  &:not(:last-of-type) {
+    margin-bottom: 15px;
+  }
+}
+
+.post-form-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.post-date {
+  letter-spacing: 0.2em;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.post-date-padded {
+  margin-top: 120px;
+}
+
+.post-body {
+  padding-top: 13px;
+  padding-bottom: 38px;
+}
+
+.post-title, .post-form-title {
+  font-family: $base-jp-font-reg;
+  font-size: 40px;
+  letter-spacing: 0.1em;
+  line-height: 1.65;
+  margin-bottom: 35px;
+  font-weight: bold;
+}
+
+.post-content, .post-form-content {
+  font-family: $base-jp-font-reg;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.109em;
+  line-height: 2.25;
+  margin-top: 48px;
+}
+
+.post-container {
+  border-bottom: 1px solid #101010;
+  margin-bottom: 52px;
+  padding-bottom: 88px;
+  &.is-new-post {
+    border: none;
+    padding-bottom: 160px;
+    margin-bottom: 0;
+  }
+}
+
+.post-comment-list {
+  margin-top: 32px;
+}
+
+.post-comment-form-text {
+  width: 100%;
+  border: 1px solid #101010;
+  padding: 42px 40px;
+  letter-spacing: 0.14em;
+  height: 200px;
+  font-size: 18px;
+  resize: none;
+  margin-bottom: 40px;
+}
+
+.post-comment-section {
+  min-width: 0;
+  padding-bottom: 150px;
+}
+
+.post-form-title {
+  min-height: 150px;
+}
+
+.post-form-title {
+  padding: 25px 20px;
+}
+
+.post-form-input {
+  width: 100%;
+  resize: none;
+  border: 1px solid #707070;
+}
+
+.post-dropzone {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.post-input {
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
+  height: 1px;
+}
+
+.button-dropzone {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 260px;
+  z-index: 5;
+}
+
+.post-dropzone-overlay {
+  position: absolute;
+  background: rgba(16, 16, 16, 0.45);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.4s;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.post-dropzone-overlay p {
+  color: #c5c5c5;
+  font-size: 18px;
+}

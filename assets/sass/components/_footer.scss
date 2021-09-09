@@ -1,0 +1,24 @@
+.footer {
+    background-color: #292929;
+    color: #fff;
+    padding-top: 75px;
+    position: relative;
+}
+
+.footer__description {
+    font-family: $base-jp-font-reg;
+    line-height: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer__copyright {
+    background-color: #101010;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    p {
+        font-size: 12px;
+        font-family: $base-font-family;
+        text-align: center;
+    }
+}

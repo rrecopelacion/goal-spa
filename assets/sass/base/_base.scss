@@ -1,0 +1,51 @@
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  color: $color-text-primary;
+  overflow-x: hidden;
+
+  &.scroll-lock {
+    position: fixed;
+    width: 100%;
+  }
+}
+
+.header, .footer, .base-content, .notif{
+  &.disabled {
+    filter: blur(2px);
+    pointer-events: none;
+  }
+}
+
+#footer_pc {
+  border-width: 0 !important;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-heading {
+  font-size: 50px;
+  font-family: $base-font-bold;
+  text-transform: uppercase;
+}
+
+.section-title a {
+  align-self: center;
+  margin-left: auto;
+  color: #101010;
+  font-family: "MontserratBold";
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+}
+
+.is-scroll-disabled {
+  overflow: hidden;
+}

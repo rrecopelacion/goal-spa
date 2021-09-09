@@ -1,0 +1,23 @@
+.u-show-pc {
+  @include max-screen($breakpoint-mobile) {
+    display: none !important;
+  }
+}
+
+.u-show-sp {
+  display: none !important;
+
+  @include max-screen($breakpoint-mobile) {
+    display: block !important;
+  }
+
+  &.u-show-sp-flex {
+    @include max-screen($breakpoint-mobile) {
+      display: flex !important;
+    }
+  }
+}
+
+.tc {
+  text-align: center;
+}

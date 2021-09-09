@@ -1,0 +1,28 @@
+$base-font-family: 'MontserratRegular';
+$base-font-bold: 'MontserratBold';
+$base-font-italic: 'MontserratItalic';
+$base-jp-font: 'YuGothicBold';
+$base-jp-font-reg: 'YuGothic';
+$font-meiryo: 'Meiryo';
+$font-meiryo-bold: 'MeiryoBold';
+
+$base-font-size: 14px;
+
+$color-text-primary: #333;
+$color-text-secondary: #ffffff;
+
+$color-bg-primary: #292929;
+$color-bg-secondary: #f2f2f2;
+$color-bg-tertiary: #F5F5F5;
+
+$color-endeavour: #0057B8;
+
+$breakpoint-mobile: 767px;
+$breakpoint-mobile-min: 375px;
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
