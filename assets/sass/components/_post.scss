@@ -173,3 +173,28 @@
   color: #c5c5c5;
   font-size: 18px;
 }
+
+.post-comment-list {
+  margin-top: 32px;
+}
+
+.post-comment-item {
+  background: #f5f5f5;
+  padding: 48px 40px;
+  margin-bottom: 50px;
+}
+
+.post-comment-content {
+  font-family: $base-jp-font-reg;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.109em;
+  line-height: 2.25;
+  margin-bottom: 22px;
+}
+
+.post-comment-date {
+  font-family: $base-font-bold;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
