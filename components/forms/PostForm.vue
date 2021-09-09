@@ -100,7 +100,7 @@ export default {
   props: ['isSinglePost', 'postId', 'isNewPost'],
   data() {
     return {
-      placeholder: require('../../assets/img/placeholder1920x1080.png'),
+      placeholder: require('../../assets/img/news01.png'),
       formTitle: '',
       formContent: '',
       formImage: '',
