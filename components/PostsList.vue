@@ -47,7 +47,7 @@ export default {
     return {
       limit: 6,
       index: 0,
-      placeholder: require('../assets/img/placeholder280x200.png'),
+      placeholder: require('../assets/img/news01.png'),
     }
   },
   methods: {
